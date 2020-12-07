@@ -66,44 +66,71 @@
 		<main>
 			<!-- Contact Form -->
 			<div class="container">
-				<div class="card mt-3">
-					<div class="card-body">
-						<form>
-							<h1>Contact</h1>
-							<div class="form-group">
-								<input
-									class="form-control"
-									type="text"
-									placeholder="Full Name"
-								/>
-							</div>
-
-							<div class="form-group">
-								<label for="form-contol">Please select one.</label>
-								<select class="form-control">
-									<option>Email</option>
-									<option>Mobile Phone Number</option>
-									<option>LinkedIn</option>
-								</select>
-							</div>
-
-							<div class="form-group">
-								<input class="form-control" type="text" placeholder="" />
-								<small id="emailHelp" class="form-text text-muted"
-									>We'll never share your information with anyone else.</small
+				<div class="row">
+					<div class="col-md-7">
+						<div class="card mt-3">
+							<div class="card-body">
+								<form
+									action="mailto:rrrossettiii@gmail.com"
+									method="POST"
+									enctype="text/plain"
 								>
-							</div>
+									<h1>Contact</h1>
+									<div class="form-group">
+										<input
+											class="form-control"
+											type="text"
+											placeholder="Full Name"
+										/>
+									</div>
 
-							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Message</label>
-								<textarea
-									class="form-control"
-									id="exampleFormControlTextarea1"
-									rows="3"
-								></textarea>
+									<div class="form-group">
+										<label for="form-contol">Please select one.</label>
+										<select class="form-control">
+											<option>Email</option>
+											<option>Mobile Phone Number</option>
+											<option>LinkedIn</option>
+										</select>
+									</div>
+
+									<div class="form-group">
+										<input class="form-control" type="text" placeholder="" />
+										<small id="emailHelp" class="form-text text-muted"
+											>We'll never share your information with anyone
+											else.</small
+										>
+									</div>
+
+									<div class="form-group">
+										<label for="exampleFormControlTextarea1">Message</label>
+										<textarea
+											class="form-control"
+											id="exampleFormControlTextarea1"
+											rows="3"
+										></textarea>
+									</div>
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</form>
 							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</form>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="card text-nowrap">
+							<div class="card-header">Dante Ivec</div>
+							<div class="card-body">
+								<p>
+									Email:
+									<a href="mailto:rrrossettiii@gmail.com"
+										>rrrossettiii@gmail.com</a
+									>
+								</p>
+								<p>Mobile: <a href="sms:+19495731345">(949) 573-1345</a></p>
+								<p>
+									Github:
+									<a href="https://github.com/rrrossettiii">rrrossettiii</a>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
